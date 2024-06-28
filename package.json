@@ -10,11 +10,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "framer-motion": "^11.0.18",
+    "@fortawesome/fontawesome-svg-core": "^6.5.2",
+    "@fortawesome/free-brands-svg-icons": "^6.5.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^5.0.1",
-    "react-intersection-observer": "^9.8.1",
+    "react-parallax-tilt": "^1.7.229",
     "react-vertical-timeline-component": "^3.6.0"
   },
   "devDependencies": {

@@ -1,20 +1,22 @@
 import React from "react";
-import Navbar from "./Components/Navbar"
-import About from './Components/About'
-import Tech from "./Components/Tech";
-import Projects from './Components/Projects';
-import Work from './Components/Work'
-import Contact from "./Components/Contact";
+import Home from "./Pages/Home";
+import About from "./Pages/About";
+import Skills from "./Pages/Skills";
+import Tech from "./Pages/Tech";
+import Projects from "./Pages/Projects";
+import Contact from "./Pages/Contact";
+import Work from "./Pages/Work";
 
 const App = () => {
   return (
-    <div className="bg-black from-black-900 via-black-600 to-black-200 h-full bg-cover">
-      <Navbar />
+    <div className="bg-black text-white h-full w-screen bg-cover">
+      <Home />
       <About />
+      <Skills />
       <Tech />
-      <Work/>
+      <Work />
       <Projects />
-      <Contact/>
+      <Contact />
     </div>
   );
 };

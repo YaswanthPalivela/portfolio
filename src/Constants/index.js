@@ -9,11 +9,25 @@ import python from "../assets/python.svg";
 import Nxtwave from "../assets/nxtwave.png";
 import mysql from "../assets/mysql.svg";
 import githubIcon from "../assets/github.svg";
+import web from "../assets/web.png";
+import backend from "../assets/backend.png";
+import creator from '../assets/creator.png';
+import git from "../assets/git.png";
+import typescript from "../assets/typescript.png";
+import redux from "../assets/redux.png";
+import mongodb from "../assets/mongodb.png";
 
 export const NavbarLinks = [
   { id: 1, Link: "Home" },
+  { id: 2, Link: "About" },
   { id: 2, Link: "Projects" },
   { id: 3, Link: "Contact me" },
+];
+
+ export const services = [
+  { id: 1, Name: "Web Developer", icon: web },
+  { id: 3, Name: "Backend Developer", icon: backend },
+  { id: 4, Name: "Content Creator", icon: creator },
 ];
 
 export const Person = [
@@ -66,6 +80,21 @@ export const Technologies = [
   {
     id: 9,
     url: mysql,
+  },{
+    id: 10,
+    url: mongodb,
+  },
+  {
+    id: 11,
+    url: git,
+  },
+  {
+    id: 12,
+    url: typescript,
+  },
+  {
+    id: 13,
+    url: redux,
   },
 ];
 
